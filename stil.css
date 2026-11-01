@@ -1,0 +1,36 @@
+/* Tema B · Gündüz (src/constants/theme.ts ile aynı) */
+:root {
+  --zemin: #F3F2EE;
+  --kart: #FFFFFF;
+  --cizgi: #E2E0D8;
+  --yazi: #15161A;
+  --ikincil: #5E626B;
+  --vurgu: #2448FF;
+  --vurgu-koyu: #1A34C4;
+}
+body {
+  margin: 0;
+  background: var(--zemin);
+  color: var(--yazi);
+  font-family: Manrope, system-ui, sans-serif;
+  line-height: 1.55;
+}
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 40px 16px 64px;
+}
+.logo {
+  display: inline-block;
+  font-weight: 800;
+  font-size: 20px;
+  color: var(--vurgu);
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+h1 { font-size: 28px; font-weight: 800; margin: 0 0 4px; }
+h2 { font-size: 17px; font-weight: 800; margin: 28px 0 6px; }
+p { font-size: 15px; margin: 0 0 10px; }
+.tarih { color: var(--ikincil); font-size: 13px; }
+a { color: var(--vurgu); }
+a:hover { color: var(--vurgu-koyu); }
